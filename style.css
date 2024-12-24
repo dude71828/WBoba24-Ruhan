@@ -1,0 +1,46 @@
+html {
+    /* background-color:rgb(24, 102, 0); */
+    background-image: linear-gradient(0deg, rgb(45, 191, 0), rgb(55, 139, 0));
+
+    font-family: sans-serif;
+}
+
+h1 {
+    text-align: center;
+    margin: 0vh 0px 7vh 0px;
+    background-color:rgb(192, 0, 0);
+    color: white;
+    padding: 10vh;
+    font-size: 42px;
+}
+    
+.story {
+    padding: 10px;
+    margin: auto;
+    width: 75vw;
+    height: 200vh;
+    word-wrap: break-word;
+    font-size: 22px;
+    color: white;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+    width: 50vw;
+    height: 60vh;
+    object-fit: cover;
+}
+
+#one {
+    object-position: 25% 65%;
+}
+
+#three {
+    width: 65vw;
+    height: 75vh;
+    object-position: 25% 75%;
+}
